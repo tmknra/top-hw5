@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.1</version>
+        <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>top-hw5</artifactId>
+    <artifactId>HW_5</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>top-hw5</name>
-    <description>top-hw5</description>
+    <name>HW_5</name>
+    <description>HW_5</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -24,8 +24,19 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.4.0</version>
         </dependency>
     </dependencies>
 
